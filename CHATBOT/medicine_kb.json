@@ -1,0 +1,50 @@
+{
+  "diseases": {
+    "flu": {
+      "symptoms": ["fever", "cough", "cold", "body pain", "headache"],
+      "medicine": ["Paracetamol", "Ibuprofen"],
+      "consult_doctor": true
+    },
+    "common cold": {
+      "symptoms": ["cold", "sneezing", "runny nose"],
+      "medicine": ["Antihistamine", "Steam inhalation"],
+      "consult_doctor": false
+    },
+    "migraine": {
+      "symptoms": ["headache", "nausea", "sensitivity to light"],
+      "medicine": ["Pain relievers", "Rest"],
+      "consult_doctor": true
+    },
+    "gastritis": {
+      "symptoms": ["stomach pain", "acidity", "bloating"],
+      "medicine": ["Antacids", "Omeprazole"],
+      "consult_doctor": false
+    },
+    "diabetes": {
+      "symptoms": ["frequent urination", "excessive thirst", "fatigue"],
+      "medicine": ["Insulin", "Metformin"],
+      "consult_doctor": true
+    },
+    "hypertension": {
+      "symptoms": ["high blood pressure", "dizziness", "headache"],
+      "medicine": ["Amlodipine", "Lifestyle changes"],
+      "consult_doctor": true
+    },
+    "asthma": {
+      "symptoms": ["shortness of breath", "wheezing", "chest tightness"],
+      "medicine": ["Inhaler", "Bronchodilators"],
+      "consult_doctor": true
+    },
+    "food poisoning": {
+      "symptoms": ["vomiting", "diarrhea", "stomach pain"],
+      "medicine": ["ORS", "Anti-nausea medicine"],
+      "consult_doctor": false
+    }
+  },
+
+  "weather_effects": {
+    "cold": ["common cold", "joint pain", "dry skin"],
+    "hot": ["dehydration", "heat stroke", "fatigue"],
+    "rainy": ["viral fever", "fungal infection"]
+  }
+}

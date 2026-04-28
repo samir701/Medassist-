@@ -4,7 +4,7 @@ import "./assets/css/About.css";
 import Navbar from "./Navbar";
 import ab from './assets/images/adoc1.avif';
 import abc from './assets/images/adoc2.jpg';
-import Chatbot from "./Chatbot";
+// import Chatbot from "./Chatbot";
 
 function About() {
     return (
@@ -51,7 +51,7 @@ function About() {
         </div>
     </div>
 </div>
-<Chatbot />
+{/* <Chatbot /> */}
         </div>
     );
 }

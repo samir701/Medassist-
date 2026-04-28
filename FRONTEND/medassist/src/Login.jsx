@@ -154,9 +154,9 @@ const Auth = () => {
                   required
                 />
                 {showPassword ? (
-                  <VscEye onClick={() => setShowPassword(false)} />
+                  <VscEye id="eye_icon" onClick={() => setShowPassword(false)} />
                 ) : (
-                  <TbEyeClosed onClick={() => setShowPassword(true)} />
+                  <TbEyeClosed id="eye_icon" onClick={() => setShowPassword(true)} />
                 )}
               </div>
               <button type="submit" className="Button">

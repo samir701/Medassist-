@@ -21,6 +21,11 @@ import { useNavigate,Navigate } from "react-router-dom";
 import Chatbot from "./Chatbot";
 
 export default function App() {
+  const [showBot, setShowBot] = React.useState(false);
+
+  const toggleBot = () => {
+    setShowBot(!showBot);
+  };
 
   return (
     <div className="App">
@@ -29,8 +34,10 @@ export default function App() {
         <Routes>
           {/* root routes */}
           <Route path="/" element={<Navigate to="/home" replace />} />
+
           {/* main Route */}
           <Route path="/login" element={<Login />} />
+          
 
           {/* potected Route */}
           <Route element={<ProtectedRoute />}>
@@ -63,7 +70,18 @@ export default function App() {
                   </div>
                   <img src={doctor} alt="doctor" className="hero-img" />
                 </div>
-                <Chatbot />
+                {showBot && <Chatbot onClose={toggleBot} />}
+                      {/* // <div className="chatbot-popup">
+                      //   <Chatbot />
+                      //   <button className="close-bot" onClick={toggleBot}>✖</button>
+                      // </div> */}
+                      
+
+                    
+                {/* 🔥 FLOATING BUTTON */}
+                    <button className="floating-bot-btn" onClick={toggleBot}>
+                      💬
+                    </button>
 
                 {/* Service Cards */}
                 <div className="card-cont">

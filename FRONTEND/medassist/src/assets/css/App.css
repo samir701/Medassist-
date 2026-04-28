@@ -299,3 +299,57 @@ body {
     margin-bottom: 6px;
   }
 }
+/* Floating Chatbot Button */
+.floating-bot-btn {
+  position: fixed;
+  bottom: 25px;
+  right: 25px;
+  background: #0aa8ff;
+  color: white;
+  border: none;
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  font-size: 26px;
+  cursor: pointer;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.25);
+  z-index: 2000;
+  transition: 0.3s ease;
+}
+
+/* .floating-bot-btn:hover {
+  transform: scale(1.1);
+} */
+
+/* Chatbot popup panel
+.chatbot-popup {
+  position: fixed;
+  bottom: 100px;
+  right: 25px;
+  width: 350px;
+  height: 500px;
+  
+  border-radius: 16px;
+  box-shadow: 0 8px 25px rgba(0,0,0,0.3);
+  z-index: 3000;
+
+  display: flex;
+  flex-direction: column;
+  
+} */
+
+/* Close button
+.close-bot {
+  position: absolute;
+  top: 8px;
+  right: 8px;
+  border: none;
+  background: transparent;
+  font-size: 20px;
+  cursor: pointer;
+}
+.chat-container {
+  flex: 1;
+  overflow-y: auto;
+  padding: 10px;
+} */

@@ -76,7 +76,7 @@ const Navbar = () => {
                 </ul>
                 
             </div>
-            <a href="#" className="btn-nav"><button id="btn-bot" >MediBot</button><span><i></i></span></a>
+            
         </div>
     );
 };
